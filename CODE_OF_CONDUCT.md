@@ -24,7 +24,7 @@ Project maintainers (currently Lena Gibson) are responsible for clarifying actio
 This Code of Conduct applies within all community spaces—GitHub issues, pull requests, Discord channels, or any other project-controlled venues, as well as when individuals represent the project in public.
 
 ## Enforcement
-To report violations, email **conduct@lenag.dev** or open a confidential GitHub security advisory. Maintainers will investigate and respond within 5 business days. Reports will be kept private to the extent allowed by law.
+To report violations, please use GitHub's “Report a vulnerability” / private advisory workflow or open a private discussion directed at the maintainers. Maintainers will investigate and respond within 5 business days. Reports will be kept private to the extent allowed by law.
 
 ## Attribution
 This policy is adapted from the Contributor Covenant v2.1 (https://www.contributor-covenant.org/version/2/1/code_of_conduct/). For answers to common questions, see https://www.contributor-covenant.org/faq.

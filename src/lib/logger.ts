@@ -13,7 +13,7 @@
 import pino from 'pino';
 
 const logger = pino({
-	name: 'hearth-bot',
+	name: 'cybi',
 	level: process.env.LOG_LEVEL ?? 'info',
 	// Pretty logs for dev, structured JSON for prod so both humans and machines stay happy.
 	transport:

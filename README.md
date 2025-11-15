@@ -1,4 +1,4 @@
-# Hearth Bot *(working title)*
+# Cybi
 Personal Discord bot built by **Lena Gibson** to keep small community servers healthy, welcoming, and organized. The project doubles as a playground for modern Discord bot patterns (TypeScript + Discord.js 14, strong tooling) and a practical moderation suite I can run locally or open source.
 
 ## Vision
@@ -15,7 +15,7 @@ Personal Discord bot built by **Lena Gibson** to keep small community servers he
 ## Quick Start
 ```bash
 git clone <repo-url>
-cd hearth-bot
+cd cybi
 npm install
 cp .env.example .env    # fill in token + IDs
 npm run dev             # run locally with hot reload
@@ -70,7 +70,7 @@ npm run deploy:guild    # publish slash commands to your dev guild
 | `/google query [results]` | Google Custom Search integration (requires API key + CSE ID). |
 
 ### Data Storage
-- Moderation data persists in a local SQLite file inside the repo’s `data/` directory (gitignored by default).
+- Moderation data persists in a local SQLite file inside the repo's `data/` directory (gitignored by default).
 - `WARNING_RETENTION_DAYS` controls automatic cleanup of stale warnings before inserts/queries; rotate or relocate the DB file to suit your deployment model.
 
 ## Roadmap

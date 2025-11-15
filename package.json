@@ -1,5 +1,5 @@
 {
-  "name": "hearth-bot",
+  "name": "cybi",
   "version": "1.0.0",
   "type": "module",
   "private": true,
@@ -13,7 +13,7 @@
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "test": "vitest run",
+    "test": "vitest run --passWithNoTests",
     "test:watch": "vitest watch",
     "deploy:guild": "tsx --env-file=.env src/scripts/deploy-commands.ts --scope=guild",
     "deploy:global": "tsx --env-file=.env src/scripts/deploy-commands.ts --scope=global"

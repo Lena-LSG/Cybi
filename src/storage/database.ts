@@ -15,7 +15,7 @@ import path from 'node:path';
 import { promises as fs } from 'node:fs';
 
 const dataDir = path.resolve(process.cwd(), 'data');
-const dbPath = path.join(dataDir, 'hearth-bot.db');
+const dbPath = path.join(dataDir, 'cybi.db');
 
 const migrate = (connection: Database.Database) => {
 	// One table for now; future tables should land in migrations just like this.
